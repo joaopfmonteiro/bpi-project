@@ -13,6 +13,7 @@ import { ContratedComponent } from './simulation-home/contrated/contrated.compon
 import { IndependentComponent } from './simulation-home/independent/independent.component';
 import { SimulationCarComponent } from './simulation-car/simulation-car.component';
 import { ContractedComponent } from './simulation-car/contracted/contracted.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -28,9 +29,10 @@ import { ContractedComponent } from './simulation-car/contracted/contracted.comp
     IndependentComponent,
     SimulationCarComponent,
     ContractedComponent
-  ],
+    ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]

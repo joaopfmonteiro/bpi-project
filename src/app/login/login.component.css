@@ -1,0 +1,86 @@
+.login{
+  box-sizing: border-box;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background: #E5E5E5;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+}
+
+img {
+  position: absolute;
+  height: 27%;
+  width: 34%;
+  left: 33%;
+  top: 23%;
+  border-radius: 0px;
+  background-color: #E5E5E5;
+}
+
+input{
+  position: absolute;
+  width: 36%;
+  height: 3.7%;
+  left: 32%;
+  top: 52%;
+  background: #FFFFFF;
+  border: 0px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  color:black;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  outline: none;
+  padding-left: 10px;
+}
+
+input::placeholder{
+  margin: 50px;
+}
+
+input:focus{
+  border: 1px solid #5e514db5;
+}
+
+.buttonGo{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 1.2% 2.5%;
+  gap: 2%;
+  position: relative;
+  width: 6.7vw;
+  height: 4.9vh;
+  left: 46.7%;
+  top: 63%;
+  background: #FFCD00;
+  border-radius: 12px;
+  border-width: 0px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  color:#5E514D;
+  line-height: 4.9vh;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.vector{
+  height: 1.1%;
+  width: 1%;
+  left: 66%;
+  top: 53%;
+  border-radius: 0px;
+  position: absolute;
+  background-color: #FFFFFF;
+  opacity: 0.6;
+}
+
+
+
+
